@@ -1,4 +1,4 @@
-# Data-hiding-through-Steghide-images
+# ẨN DỮ LIỆU TRONG CÁC DINH DẠNG FILE 
 ![hird date](https://github.com/user-attachments/assets/3aa94c4a-0354-4466-89f1-4e9e85d1c749)
 
 ## 1. Cài đặt Steghide trên Linux
