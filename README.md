@@ -32,6 +32,9 @@ steghide embed -cf im.jpeg -ef password.txt -p node
 
 ## 4. Cách giải mã và trích xuất dữ liệu
 Để trích xuất dữ liệu từ file im.jpeg:
+```bash
+steghide extract -sf stg.jpg
+```
 **Tùy chọn**: 
 - `-sf` là file đã nhúng dữ liệu (stego file).
 - Nhập mật khẩu đã sử dụng để giải mã dữ liệu và trích xuất file ban đầu.
