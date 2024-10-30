@@ -24,6 +24,12 @@ steghide embed -cf im.jpeg -ef password.txt
 
 Nhập mật khẩu khi được yêu cầu để bảo vệ dữ liệu nhúng.
 
+Nếu muốn bỏ qua mật khẩu khi được yêu cầu để bảo vệ dữ liệu nhúng.
+```bash
+steghide embed -cf im.jpeg -ef password.txt -p node
+```
+- `-p node`: để bỏ qua mật khẩu.
+
 ## 4. Cách giải mã và trích xuất dữ liệu
 Để trích xuất dữ liệu từ file im.jpeg:
 **Tùy chọn**: 
